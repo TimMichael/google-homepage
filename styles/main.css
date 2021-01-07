@@ -1,11 +1,40 @@
-.nav {
-    text-align: right;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 8px;
 }
 .main {
     text-align: center;
     margin-top: 30px;
     padding-top: 200px;
 }
+form {
+    
+}
+.search-input {
+    margin-top: 30px;
+    position: relative;
+}
 .search-button {
     padding-top: 30px;
+}
+/*
+.search-form {
+    max-width: 584px;
+    margin:auto;
+
+}
+*/
+.footer-nav {
+    float: left;
 }
